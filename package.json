@@ -1,0 +1,39 @@
+{
+  "name": "remix-app-template",
+  "private": true,
+  "description": "",
+  "license": "",
+  "sideEffects": false,
+  "scripts": {
+    "build": "cross-env NODE_ENV=production remix build",
+    "dev": "cross-env NODE_ENV=development remix dev",
+    "setup-remix": "remix setup node",
+    "start": "cross-env NODE_ENV=production remix-serve build"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@remix-run/node": "^1.2.2",
+    "@remix-run/react": "^1.2.2",
+    "@remix-run/serve": "^1.2.2",
+    "@types/jest": "^27.4.0",
+    "babel-jest": "^27.5.1",
+    "cross-env": "^7.0.3",
+    "jest": "^27.5.1",
+    "prettier": "^2.5.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "remix": "^1.2.2"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.2.2",
+    "@types/react": "^17.0.24",
+    "@types/react-dom": "^17.0.9",
+    "typescript": "^4.5.5"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
